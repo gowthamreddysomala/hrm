@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 07 17:07:34 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15470 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.validateTitle()'><b>validateTitle</b><br>Test class: com.example.hrm.tests.TestLoginPage<br/>
+<a href="#Output-1840670774" onClick='toggleBox("Output-1840670774", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1840670774" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1840670774">
+Valid Title<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.injectData()'><b>injectData</b><br>Test class: com.example.hrm.tests.TestLoginPage</td>
+<td></td>
+<td>1</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.clickonJobTitle()'><b>clickonJobTitle</b><br>Test class: com.example.hrm.tests.TestLoginPage<br/>
+<a href="#Output-1121891386" onClick='toggleBox("Output-1121891386", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1121891386" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1121891386">
+Clicked on Job -> Job Titles<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.validateHomepageURL()'><b>validateHomepageURL</b><br>Test class: com.example.hrm.tests.TestLoginPage<br/>
+<a href="#Output-718512571" onClick='toggleBox("Output-718512571", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718512571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718512571">
+Opened Homepage Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.clickOnAdd()'><b>clickOnAdd</b><br>Test class: com.example.hrm.tests.TestLoginPage</td>
+<td></td>
+<td>0</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.validateSite()'><b>validateSite</b><br>Test class: com.example.hrm.tests.TestLoginPage</td>
+<td></td>
+<td>0</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.gotoAdmintab()'><b>gotoAdmintab</b><br>Test class: com.example.hrm.tests.TestLoginPage<br/>
+<a href="#Output-443502884" onClick='toggleBox("Output-443502884", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-443502884" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-443502884">
+Clicked on Admin Tab<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.logout()'><b>logout</b><br>Test class: com.example.hrm.tests.TestLoginPage</td>
+<td></td>
+<td>2</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.getData()'><b>getData</b><br>Test class: com.example.hrm.tests.TestLoginPage<br/>
+<a href="#Output-740827140" onClick='toggleBox("Output-740827140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-740827140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-740827140">
+got 34 results<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+<tr>
+<td title='com.example.hrm.tests.TestLoginPage.Login()'><b>Login</b><br>Test class: com.example.hrm.tests.TestLoginPage<br/>
+<a href="#Output-1337835760" onClick='toggleBox("Output-1337835760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1337835760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1337835760">
+Login Successful<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.example.hrm.tests.TestLoginPage@4fad94a7</td></tr>
+</table><p>
+</body>
+</html>

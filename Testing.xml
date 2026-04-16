@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" guice-stage="DEVELOPMENT">
+    <test name="hrm">
+        <classes>
+            <class name="com.example.hrm.tests.TestLoginPage"/>
+            <class name="com.example.hrm.tests.TestHomePage"/>
+            <class name="com.example.hrm.tests.TestAdminPage"/>
+            <class name="com.example.hrm.tests.TestAddJob"/>
+            <class name="com.example.hrm.tests.TestCleanUp"/>
+        </classes>
+    </test> <!-- hrm -->
+</suite> <!-- Default Suite -->
